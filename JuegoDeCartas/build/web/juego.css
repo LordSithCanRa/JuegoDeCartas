@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+*{
+    margin: 0px;
+    padding:0px;
+}
+@font-face {
+  font-family: starWars;
+  src: url(src/StarJediHollow-A4lL.woff);
+}
+@font-face {
+  font-family: starWars2;
+  src: url(src/StarJedi-DGRW.woff);
+}
+body{
+    text-align: center;
+    background: url(src/img/fondo.png) center center fixed no-repeat;
+    background-size: 100% 100%; 
+}
+h1{
+    text-align: center;
+    font-family: starWars;
+    color: yellow;
+    
+}
+p{
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    color: yellow;
+    margin-bottom: 10px;
+}
+table{
+    margin: auto;
+    margin-bottom: 30px;
+    height: 30vh;
+    width: 20vw;
+    
+}
+td{
+    height: 10vh;
+    min-height: 100px;
+    width: 20vw;
+    min-width: 100px;
+/*    max-height: 100px; PARA RESPONSIVE*/
+}
+.img input[type="image"]{
+    height: 20vh;
+    width: 10vw;
+    min-width: 100px;
+    border: 3px solid yellow;
+    border-radius: 10px;
+/*    max-height: 100px; PARA RESPONSIVE*/
+}
+.img input[type="hidden"]{
+    display: none;
+}
+
+
